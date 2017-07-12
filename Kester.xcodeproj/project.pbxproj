@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4E4DC61F163FE800D6C639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E4DC51F163FE800D6C639 /* AppDelegate.swift */; };
+		CB4E4DC81F163FE800D6C639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E4DC71F163FE800D6C639 /* ViewController.swift */; };
+		CB4E4DCB1F163FE800D6C639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4E4DC91F163FE800D6C639 /* Main.storyboard */; };
+		CB4E4DCD1F163FE800D6C639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4E4DCC1F163FE800D6C639 /* Assets.xcassets */; };
+		CB4E4DD01F163FE800D6C639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4E4DCE1F163FE800D6C639 /* LaunchScreen.storyboard */; };
+		CB4E4DDB1F163FE800D6C639 /* KesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E4DDA1F163FE800D6C639 /* KesterTests.swift */; };
+		CB4E4DE61F163FE900D6C639 /* KesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E4DE51F163FE900D6C639 /* KesterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4E4DD71F163FE800D6C639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4E4DBA1F163FE800D6C639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4E4DC11F163FE800D6C639;
+			remoteInfo = Kester;
+		};
+		CB4E4DE21F163FE900D6C639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4E4DBA1F163FE800D6C639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4E4DC11F163FE800D6C639;
+			remoteInfo = Kester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB4E4DC21F163FE800D6C639 /* Kester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4E4DC51F163FE800D6C639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB4E4DC71F163FE800D6C639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB4E4DCA1F163FE800D6C639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4E4DCC1F163FE800D6C639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB4E4DCF1F163FE800D6C639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB4E4DD11F163FE800D6C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4E4DD61F163FE800D6C639 /* KesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4E4DDA1F163FE800D6C639 /* KesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesterTests.swift; sourceTree = "<group>"; };
+		CB4E4DDC1F163FE800D6C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4E4DE11F163FE900D6C639 /* KesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4E4DE51F163FE900D6C639 /* KesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesterUITests.swift; sourceTree = "<group>"; };
+		CB4E4DE71F163FE900D6C639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4E4DBF1F163FE800D6C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DD31F163FE800D6C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DDE1F163FE800D6C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4E4DB91F163FE800D6C639 = {
+			isa = PBXGroup;
+			children = (
+				CB4E4DC41F163FE800D6C639 /* Kester */,
+				CB4E4DD91F163FE800D6C639 /* KesterTests */,
+				CB4E4DE41F163FE900D6C639 /* KesterUITests */,
+				CB4E4DC31F163FE800D6C639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4E4DC31F163FE800D6C639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E4DC21F163FE800D6C639 /* Kester.app */,
+				CB4E4DD61F163FE800D6C639 /* KesterTests.xctest */,
+				CB4E4DE11F163FE900D6C639 /* KesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4E4DC41F163FE800D6C639 /* Kester */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E4DC51F163FE800D6C639 /* AppDelegate.swift */,
+				CB4E4DC71F163FE800D6C639 /* ViewController.swift */,
+				CB4E4DC91F163FE800D6C639 /* Main.storyboard */,
+				CB4E4DCC1F163FE800D6C639 /* Assets.xcassets */,
+				CB4E4DCE1F163FE800D6C639 /* LaunchScreen.storyboard */,
+				CB4E4DD11F163FE800D6C639 /* Info.plist */,
+			);
+			path = Kester;
+			sourceTree = "<group>";
+		};
+		CB4E4DD91F163FE800D6C639 /* KesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E4DDA1F163FE800D6C639 /* KesterTests.swift */,
+				CB4E4DDC1F163FE800D6C639 /* Info.plist */,
+			);
+			path = KesterTests;
+			sourceTree = "<group>";
+		};
+		CB4E4DE41F163FE900D6C639 /* KesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E4DE51F163FE900D6C639 /* KesterUITests.swift */,
+				CB4E4DE71F163FE900D6C639 /* Info.plist */,
+			);
+			path = KesterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4E4DC11F163FE800D6C639 /* Kester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4E4DEA1F163FE900D6C639 /* Build configuration list for PBXNativeTarget "Kester" */;
+			buildPhases = (
+				CB4E4DBE1F163FE800D6C639 /* Sources */,
+				CB4E4DBF1F163FE800D6C639 /* Frameworks */,
+				CB4E4DC01F163FE800D6C639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kester;
+			productName = Kester;
+			productReference = CB4E4DC21F163FE800D6C639 /* Kester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB4E4DD51F163FE800D6C639 /* KesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4E4DED1F163FE900D6C639 /* Build configuration list for PBXNativeTarget "KesterTests" */;
+			buildPhases = (
+				CB4E4DD21F163FE800D6C639 /* Sources */,
+				CB4E4DD31F163FE800D6C639 /* Frameworks */,
+				CB4E4DD41F163FE800D6C639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4E4DD81F163FE800D6C639 /* PBXTargetDependency */,
+			);
+			name = KesterTests;
+			productName = KesterTests;
+			productReference = CB4E4DD61F163FE800D6C639 /* KesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB4E4DE01F163FE800D6C639 /* KesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4E4DF01F163FE900D6C639 /* Build configuration list for PBXNativeTarget "KesterUITests" */;
+			buildPhases = (
+				CB4E4DDD1F163FE800D6C639 /* Sources */,
+				CB4E4DDE1F163FE800D6C639 /* Frameworks */,
+				CB4E4DDF1F163FE800D6C639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4E4DE31F163FE900D6C639 /* PBXTargetDependency */,
+			);
+			name = KesterUITests;
+			productName = KesterUITests;
+			productReference = CB4E4DE11F163FE900D6C639 /* KesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4E4DBA1F163FE800D6C639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TheHive;
+				TargetAttributes = {
+					CB4E4DC11F163FE800D6C639 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CB4E4DD51F163FE800D6C639 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB4E4DC11F163FE800D6C639;
+					};
+					CB4E4DE01F163FE800D6C639 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB4E4DC11F163FE800D6C639;
+					};
+				};
+			};
+			buildConfigurationList = CB4E4DBD1F163FE800D6C639 /* Build configuration list for PBXProject "Kester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4E4DB91F163FE800D6C639;
+			productRefGroup = CB4E4DC31F163FE800D6C639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4E4DC11F163FE800D6C639 /* Kester */,
+				CB4E4DD51F163FE800D6C639 /* KesterTests */,
+				CB4E4DE01F163FE800D6C639 /* KesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4E4DC01F163FE800D6C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4E4DD01F163FE800D6C639 /* LaunchScreen.storyboard in Resources */,
+				CB4E4DCD1F163FE800D6C639 /* Assets.xcassets in Resources */,
+				CB4E4DCB1F163FE800D6C639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DD41F163FE800D6C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DDF1F163FE800D6C639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4E4DBE1F163FE800D6C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4E4DC81F163FE800D6C639 /* ViewController.swift in Sources */,
+				CB4E4DC61F163FE800D6C639 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DD21F163FE800D6C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4E4DDB1F163FE800D6C639 /* KesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E4DDD1F163FE800D6C639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4E4DE61F163FE900D6C639 /* KesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB4E4DD81F163FE800D6C639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4E4DC11F163FE800D6C639 /* Kester */;
+			targetProxy = CB4E4DD71F163FE800D6C639 /* PBXContainerItemProxy */;
+		};
+		CB4E4DE31F163FE900D6C639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4E4DC11F163FE800D6C639 /* Kester */;
+			targetProxy = CB4E4DE21F163FE900D6C639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB4E4DC91F163FE800D6C639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4E4DCA1F163FE800D6C639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB4E4DCE1F163FE800D6C639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4E4DCF1F163FE800D6C639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4E4DE81F163FE900D6C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4E4DE91F163FE900D6C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4E4DEB1F163FE900D6C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.Kester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB4E4DEC1F163FE900D6C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.Kester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB4E4DEE1F163FE900D6C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.KesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kester.app/Kester";
+			};
+			name = Debug;
+		};
+		CB4E4DEF1F163FE900D6C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.KesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kester.app/Kester";
+			};
+			name = Release;
+		};
+		CB4E4DF11F163FE900D6C639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.KesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kester;
+			};
+			name = Debug;
+		};
+		CB4E4DF21F163FE900D6C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kester.KesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4E4DBD1F163FE800D6C639 /* Build configuration list for PBXProject "Kester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E4DE81F163FE900D6C639 /* Debug */,
+				CB4E4DE91F163FE900D6C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4E4DEA1F163FE900D6C639 /* Build configuration list for PBXNativeTarget "Kester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E4DEB1F163FE900D6C639 /* Debug */,
+				CB4E4DEC1F163FE900D6C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB4E4DED1F163FE900D6C639 /* Build configuration list for PBXNativeTarget "KesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E4DEE1F163FE900D6C639 /* Debug */,
+				CB4E4DEF1F163FE900D6C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB4E4DF01F163FE900D6C639 /* Build configuration list for PBXNativeTarget "KesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E4DF11F163FE900D6C639 /* Debug */,
+				CB4E4DF21F163FE900D6C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4E4DBA1F163FE800D6C639 /* Project object */;
+}
